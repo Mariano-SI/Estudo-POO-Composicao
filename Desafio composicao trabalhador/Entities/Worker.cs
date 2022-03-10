@@ -50,7 +50,7 @@ namespace Desafio_composicao_trabalhador.Entities
             {
                 if (contract.Date.Year == year && contract.Date.Month == month )
                 {
-                    sum += contract.TotalValue();
+                    sum += contract.TotalValue(); 
                 }
             }
             return sum;
