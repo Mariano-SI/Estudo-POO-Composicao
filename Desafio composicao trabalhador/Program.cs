@@ -53,7 +53,7 @@ namespace Desafio_composicao_trabalhador
             Console.WriteLine();
             Console.WriteLine("Nome: " + worker.Name);
             Console.WriteLine("Departamento: " + worker.Department.Name);
-            Console.WriteLine("Ganhos de " + monthAndYear+ ": "+worker.Income(year, month).ToString("F2", CultureInfo.InvariantCulture);
+            Console.WriteLine("Ganhos de " + monthAndYear+ ": "+worker.Income(year, month).ToString("F2", CultureInfo.InvariantCulture));
 
         }
     }
